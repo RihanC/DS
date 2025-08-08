@@ -1,0 +1,8 @@
+
+    insertAtBeginning(head, 10);  // List: 10
+    insertAtEnd(head, 40);        // List: 10 -> 40
+    insertAtPosition(head, 20, 2); // List: 10 -> 20 -> 40
+    insertAtPosition(head, 30, 3); // List: 10 -> 20 -> 30 -> 40
+    insertAtPosition(head, 50, 10); // Out of bounds → insert at end
+    cout << "Final Linked List:\n";
+    printList(head);
